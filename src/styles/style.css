@@ -1,0 +1,75 @@
+/* import fonts from google font */
+@import url("/src/css/reset.css");
+@import url("/src/css/variables.css");
+@import url("/src/css/media.css");
+  
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+  /* -----------------
+  global styles */
+  html{
+    scroll-behavior: smooth;
+  }
+  /* layout */
+  header{
+    background-color: rgb(237, 241, 237);
+    padding: 1em 1.25em;
+    text-align: center;
+  }
+  header h1{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    max-width: 750px;
+  }
+  /* navbar */
+  .primary-nav{
+    background-color: palevioletred;
+  }
+  .nav__list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+  }
+ 
+.nav__item{
+    margin-right: 15px;
+
+}
+.nav__link{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #222;
+    display: inline-block;
+}
+.nav__link:hover{
+    transition: 0.3s;
+    color: #8889;
+    background-color: #fff;
+    
+}
+
+/* HERO SECTION */
+.hero-section{
+  min-height: auto;
+  padding: 2em 1.5em;
+  margin: auto;
+  /* width: 600px; */
+  background:url(/src/images/hero-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  min-width: 300px;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
+  
+
+
+
